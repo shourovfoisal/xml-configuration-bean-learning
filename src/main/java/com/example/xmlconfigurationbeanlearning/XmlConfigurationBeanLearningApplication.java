@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class XmlConfigurationBeanLearningApplication {
 
 	@Autowired
-	private static Pojo pojo;
+	private Pojo pojo;
 
 	public static void main(String[] args) {
 		SpringApplication.run(XmlConfigurationBeanLearningApplication.class, args);
